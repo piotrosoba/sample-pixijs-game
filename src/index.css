@@ -1,0 +1,39 @@
+body{
+  width:100vw;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ 
+ *{
+   margin:0;
+   padding:0;
+ }
+
+ .modal{
+  position: absolute;
+  left:0;
+  top:0;
+  width:100vw;
+  height:100vh;
+  background-color: rgba(0,0,0,0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size:32px;
+  gap:12px;
+  color:#ffffff
+ }
+
+ .modal_text{
+  text-align: center;
+ }
+
+
+ button{
+  font-size: 32px;
+  padding:4px 12px;
+  cursor: pointer;
+ }

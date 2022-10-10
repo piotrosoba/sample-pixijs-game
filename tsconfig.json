@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "target": "es5",
+    "sourceMap": true,
+    "module": "commonjs",
+    "lib": ["ES2017", "DOM"],
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["src/*.test.ts"]
+}
